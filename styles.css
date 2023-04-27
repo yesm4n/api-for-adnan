@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f1f6f9;
+  color: #394867;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  margin: 3rem 0;
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2,
+h3,
+h4 {
+  color: #212a3e;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+img {
+  /* width: 60%; */
+  width: 250px;
+  height: 170px;
+}
+
+/*  */
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.country {
+  width: 350px;
+  /* margin: 10px; */
+  padding: 3rem;
+  /* gap: 2em; */
+  /* Country div */
+}
+
+.flags {
+  /* Country images */
+}
+
+.name {
+  /* Country names */
+}
+
+/*  */
+
+.footer {
+  margin: 0;
+  padding: 3rem;
+  background-color: #212a3e;
+  text-align: center;
+}
+
+.footer-text {
+  cursor: pointer;
+  font-size: 14px;
+  color: #f1f6f9;
+  text-shadow: #394867 1px 1px;
+}
+
+.footer-text:hover {
+  color: hsl(220, 29%, 80%);
+}
+
+@media (max-width: 701px) {
+  body {
+    text-align: center;
+  }
+}
